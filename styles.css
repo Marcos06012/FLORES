@@ -1,3 +1,22 @@
+/* Estilo para la frase destacada */
+.frase {
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fffbe6;
+  font-size: 2.2rem;
+  font-family: 'Segoe Script', 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  text-shadow: 0 2px 8px #000, 0 0 10px #ffb347;
+  background: rgba(1, 1, 19, 0.6);
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 24px 0 #0008;
+  z-index: 1000;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
 *,
 *::after,
 *::before {
