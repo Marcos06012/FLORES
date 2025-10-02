@@ -31,15 +31,30 @@
   top: 5vh;
   left: 50%;
   transform: translateX(-50%);
-  color: #fffbe6;
+  color: #ffffff;
   font-size: 2rem;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'Montserrat';
   text-align: center;
-  text-shadow: 0 2px 8px #0008;
-  background: rgba(1, 1, 19, 0.7);
+  text-shadow: 0 2px 8px #0008, 0 0 20px #fffbe6, 0 0 40px #18ced7;
+  animation: frase-brillo 2.5s ease-in-out infinite alternate;
+@keyframes frase-brillo {
+  0% {
+    text-shadow: 0 2px 8px #0008, 0 0 10px #fffbe6, 0 0 20px #ffd700;
+    color: #fffbe6;
+  }
+  50% {
+    text-shadow: 0 2px 16px #fffbe6, 0 0 40px #ffd700, 0 0 80px #fffbe6;
+    color: #fff8c6;
+  }
+  100% {
+    text-shadow: 0 2px 8px #0008, 0 0 10px #fffbe6, 0 0 20px #ffd700;
+    color: #fffbe6;
+  }
+}
+  background: rgba(1, 1, 19, 0);
   padding: 1rem 2.5rem;
   border-radius: 1.5rem;
-  box-shadow: 0 4px 24px 0 #0006;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0);
   z-index: 1000;
   letter-spacing: 1px;
   margin-bottom: 2rem;
@@ -453,14 +468,14 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(255, 251, 0);
+  background-color: #b8e612;
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
   animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #028137;
+  background-color: #aeefff;
 }
 .flower__light--1 {
   left: -2vmin;
@@ -1611,6 +1626,8 @@ body {
   position: absolute;
   z-index: 200;
   border-radius: 50%;
+  background: rgba(174, 239, 255, 0.25);
+  box-shadow: 0 0 24px 8px #AEEFFF, 0 0 60px 20px #AEEFFF44;
 }
 .bubble:nth-child(1) {
   top: 8%;
