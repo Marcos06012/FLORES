@@ -36,7 +36,7 @@
   font-family: 'Dancing Script', cursive, sans-serif;
   text-align: center;
   text-shadow: 0 2px 8px #0008;
-  animation: frase-brillo 2.5s ease-in-out infinite alternate;
+  text-shadow: 0 2px 8px #0008, 0 0 20px #fffbe6, 0 0 40px #00f7ff;
   background: rgba(1, 1, 19, 0);
   padding: 1rem 2.5rem;
   border-radius: 1.5rem;
