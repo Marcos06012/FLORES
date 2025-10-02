@@ -35,8 +35,7 @@
   font-size: 2.2rem;
   font-family: 'Dancing Script', cursive, sans-serif;
   text-align: center;
-  text-shadow: 0 2px 8px #0008;
-  text-shadow: 0 2px 8px #0008, 0 0 20px #fffbe6, 0 0 40px #00f7ff;
+  text-shadow: 0 2px 8px #0008, 0 0 20px #00eeff, 0 0 40px #00d5ff;
   background: rgba(1, 1, 19, 0);
   padding: 1rem 2.5rem;
   border-radius: 1.5rem;
@@ -46,19 +45,20 @@
   margin-bottom: 2rem;
 }
 
-@keyframes frase-brillo {
-  0% {
-    text-shadow: 0 2px 8px #0008, 0 0 10px #ffffff, 0 0 20px #14c2d2;
-    color: #ffffff;
-  }
-  50% {
-    text-shadow: 0 2px 16px #ffffff, 0 0 40px #00d9ff, 0 0 80px #ffffff;
-    color: #ffffff;
-  }
-  100% {
-    text-shadow: 0 2px 8px #0008, 0 0 10px #ffffff, 0 0 20px #00e1ff;
-    color: #ffffff;
-  }
+/* Contenedor para frase y autor, centrado y absoluto */
+.frase-contenedor {
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  color: #ffffff;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  text-shadow: 0 2px 8px rgb(66, 82, 158), 0 0 20px #631e0b, 0 0 40px #ff0000;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+
 }
 
 *,
