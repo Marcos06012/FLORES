@@ -48,19 +48,19 @@
 
 @keyframes frase-brillo {
   0% {
-    text-shadow: 0 2px 8px #0008, 0 0 10px #fffbe6, 0 0 20px #ffd700;
-    color: #fffbe6;
+    text-shadow: 0 2px 8px #0008, 0 0 10px #ffffff, 0 0 20px #14c2d2;
+    color: #ffffff;
   }
   50% {
-    text-shadow: 0 2px 16px #fffbe6, 0 0 40px #ffd700, 0 0 80px #fffbe6;
-    color: #fff8c6;
+    text-shadow: 0 2px 16px #ffffff, 0 0 40px #00d9ff, 0 0 80px #ffffff;
+    color: #ffffff;
   }
   100% {
-    text-shadow: 0 2px 8px #0008, 0 0 10px #fffbe6, 0 0 20px #ffd700;
-    color: #fffbe6;
+    text-shadow: 0 2px 8px #0008, 0 0 10px #ffffff, 0 0 20px #00e1ff;
+    color: #ffffff;
   }
 }
-}
+
 *,
 *::after,
 *::before {
