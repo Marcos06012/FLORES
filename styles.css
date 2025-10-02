@@ -1,3 +1,30 @@
+@media (max-width: 600px) {
+  .frase {
+    font-size: 1.1rem;
+    padding: 0.7rem 1rem;
+    top: 2vh;
+    border-radius: 1rem;
+    width: 90vw;
+    max-width: 95vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .flowers {
+    transform: scale(0.55);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .flower {
+    bottom: 2vmin;
+  }
+  body {
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
 /* Estilo para la frase destacada */
 .frase {
   position: absolute;
